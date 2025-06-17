@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.toolbar, .canvas {
+  border: 1px solid black;
+  width: 100%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.toolbar {
+  padding: 3px;
+}
+
+.canvas {
+  height: 400px;
+}
+
+.control {
+  width: 50px;
+  height: 50px;
+}
+
+.brush {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+}
+
+.size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.square, .circle {
+  background-color: black;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.red { background-color: red; }
+.black { background-color: black; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.violet { background-color: violet; }
